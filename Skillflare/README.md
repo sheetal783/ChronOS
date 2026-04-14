@@ -1,48 +1,52 @@
-# MITS SkillFlare 🎓
+# SkillFlare 🎓
 
-A comprehensive student talent marketplace and mentorship platform for MITS. It empowers students and teachers to collaborate seamlessly through a task-based economy, professional mentorships, real-time messaging, and intelligent AI assistance.
+A comprehensive student talent marketplace and mentorship platform. It empowers students and teachers to collaborate seamlessly through a task-based economy, professional mentorships, real-time messaging, and intelligent AI assistance.
 
-![MITS SkillFlare](https://via.placeholder.com/800x200/F57C00/FFFFFF?text=MITS+SkillFlare)
+![SkillFlare](https://via.placeholder.com/800x200/F57C00/FFFFFF?text=SkillFlare)
 
 ## 🌟 Key Features
 
 ### For Students
 
-- **Browse Tasks:** Discover tasks posted by teachers, mentors, and peers.
-- **Take & Complete Tasks:** Gain hands-on experience and earn credit points for valid submissions.
-- **Mentorship:** Connect with experienced developers and mentors or apply to become one.
-- **Build Portfolio:** Showcase completed work and earn badges on your profile.
-- **Leaderboard:** Compete with peers and climb the ranks using gamified credit points.
+- **Browse Tasks:** Discover tasks posted by teachers, mentors, and peers.  
+- **Take & Complete Tasks:** Gain hands-on experience and earn credit points for valid submissions.  
+- **Mentorship:** Connect with experienced developers and mentors or apply to become one.  
+- **Build Portfolio:** Showcase completed work and earn badges on your profile.  
+- **Leaderboard:** Compete with peers and climb the ranks using gamified credit points.  
 
 ### For Mentors
 
-- **Become a Mentor:** Apply by detailing skills, coding profiles, and professional links.
-- **Manage Profile:** Update your availability dynamically and adjust technical skillsets.
-- **Guide Students:** Accept mentorship requests and conduct 1-on-1 sessions.
+- **Become a Mentor:** Apply by detailing skills, coding profiles, and professional links.  
+- **Manage Profile:** Update your availability dynamically and adjust technical skillsets.  
+- **Guide Students:** Accept mentorship requests and conduct 1-on-1 sessions.  
 
 ### For Teachers
 
-- **Post Tasks:** Create assignments with descriptions, deadlines, and credit point rewards.
-- **Review Submissions:** Approve completed tasks or request revisions with direct feedback.
-- **Rate Students:** Provide constructive ratings to boost student portfolios.
-- **Monitor Progress:** Track the completion pipeline of posted tasks through the dashboard.
+- **Post Tasks:** Create assignments with descriptions, deadlines, and credit point rewards.  
+- **Review Submissions:** Approve completed tasks or request revisions with direct feedback.  
+- **Rate Students:** Provide constructive ratings to boost student portfolios.  
+- **Monitor Progress:** Track the completion pipeline of posted tasks through the dashboard.  
+
+---
 
 ### 🤖 Buddy AI Assistant (Powered by Ollama)
 
 SkillFlare comes with an embedded, context-aware AI named **Buddy AI**.
 
-- Built on a dynamic backend architecture connected to **Ollama** (Mistral/Llama backend)
-- Trained specifically on the internal architecture of **MITS SkillFlare**.
-- Highly moderated to ensure completely safe, educational, and relevant outputs.
-- Acts as a real-time guide to navigating tasks, finding mentors, or general platform query solving.
+- Built on a dynamic backend architecture connected to **Ollama** (Mistral/Llama backend)  
+- Trained specifically on the internal architecture of **SkillFlare**  
+- Highly moderated to ensure completely safe, educational, and relevant outputs  
+- Acts as a real-time guide to navigating tasks, finding mentors, or general platform query solving  
 
-### Platform Features
+---
 
-- 🔒 **Secure Authorization:** JWT-based robust authentication with distinct Role-Based Access Controls.
-- 💬 **Real-Time Communication:** Live web sockets using `Socket.io` for instant messaging.
-- 👨‍💻 **Developer Hub:** Easily explore the passionate student team building SkillFlare.
-- 🌙 **Dark-Mode First UI:** A modernized, sleek, and glow-textured interface.
-- 📱 **Mobile Responsive:** Fluid layout that operates gracefully on phones, tablets, and desktops.
+## ⚡ Platform Features
+
+- 🔒 **Secure Authorization:** JWT-based robust authentication with distinct Role-Based Access Controls  
+- 💬 **Real-Time Communication:** Live web sockets using `Socket.io` for instant messaging  
+- 👨‍💻 **Developer Hub:** Easily explore the passionate student team building SkillFlare  
+- 🌙 **Dark-Mode First UI:** A modernized, sleek, and glow-textured interface  
+- 📱 **Mobile Responsive:** Fluid layout that operates gracefully on phones, tablets, and desktops  
 
 ---
 
@@ -50,23 +54,23 @@ SkillFlare comes with an embedded, context-aware AI named **Buddy AI**.
 
 ### Frontend
 
-- **React 18** (Vite build system)
-- **Tailwind CSS** (Custom theme presets and glassmorphic designs)
-- **React Router DOM v6**
-- **Socket.IO-Client** for real-time live chats
-- **Lucide React** & **React Icons** for beautiful UI iconography
-- **Axios** for API data fetching
-- **React Hot Toast** for sleek user notifications
+- **React 18** (Vite build system)  
+- **Tailwind CSS** (Custom theme presets and glassmorphic designs)  
+- **React Router DOM v6**  
+- **Socket.IO-Client** for real-time live chats  
+- **Lucide React** & **React Icons** for beautiful UI iconography  
+- **Axios** for API data fetching  
+- **React Hot Toast** for sleek user notifications  
 
 ### Backend
 
-- **Node.js & Express.js**
-- **MongoDB & Mongoose** for the database schema
-- **JWT** (JSON Web Tokens) for security layers
-- **Bcrypt.js** for password hashing and salting
-- **Socket.IO** for event-driven asynchronous chat
-- **Ollama / Axios** for LLM handling and prompt optimization
-- **Express Rate Limit & Helmet** for robust web security
+- **Node.js & Express.js**  
+- **MongoDB & Mongoose** for the database schema  
+- **JWT** (JSON Web Tokens) for security layers  
+- **Bcrypt.js** for password hashing and salting  
+- **Socket.IO** for event-driven asynchronous chat  
+- **Ollama / Axios** for LLM handling and prompt optimization  
+- **Express Rate Limit & Helmet** for robust web security  
 
 ---
 
@@ -76,9 +80,11 @@ SkillFlare comes with an embedded, context-aware AI named **Buddy AI**.
 
 Make sure you have installed on your local environment:
 
-- **Node.js** (v18 or higher)
-- **MongoDB** (Local or Atlas instance)
-- **Ollama** (Only necessary if you intend to run the Buddy AI local server capabilities)
+- **Node.js** (v18 or higher)  
+- **MongoDB** (Local or Atlas instance)  
+- **Ollama** (Only necessary if you intend to run the Buddy AI local server capabilities)  
+
+---
 
 ### General Installation
 
@@ -354,17 +360,6 @@ npm run db:migrate       # Run migrations
 
 ---
 
-## 👨‍💻 Development Team
-
-**MITS SkillFlare Team:**
-- **Project Mentor:** Dr. Devesh Kumar Lal
-- **Full Stack:** Krish Dargar
-- **Frontend:** Sheetal Gourh
-- **Backend:** Arin Gupta, Anurag Mishra, Vivek Chaurasiya
-- **QA & Testing:** Ashish Garg
-
----
-
 ## 📚 Additional Documentation
 
 - [ARCHITECTURE.md](./ARCHITECTURE.md) - System design and technical architecture
@@ -393,5 +388,3 @@ We welcome contributions! Please follow these steps:
 This project is proprietary and licensed under PRIVATE license.
 
 ---
-
-_Made with ❤️ by MITS Students for MITS Students._
