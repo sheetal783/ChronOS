@@ -344,6 +344,210 @@ Beginner – Intermediate
 
 ---
 
+## Idea 11: Volunteer Connect Platform
+
+### Description
+Build a platform that bridges the gap between individuals who want to volunteer and NGOs that require support.
+
+Many people are willing to contribute to social causes but lack awareness of opportunities. NGOs, on the other hand, struggle to reach and manage volunteers effectively.
+
+The platform should enable NGOs to post volunteering opportunities and allow users to discover and participate in nearby events.
+
+### Expected Outcomes
+- Centralized platform for NGO volunteer opportunities
+- Location-based discovery of volunteering events
+- Seamless volunteer onboarding and participation
+- Tracking of volunteer hours
+- Certificate generation for contributions
+- Resume-building support for students
+
+### Possible Deliverables
+- NGO dashboard for posting events/tasks
+- Volunteer discovery interface (location-based)
+- Event participation and tracking system
+- Certificate generation module
+- User profile with contribution history
+- Notification system for new opportunities
+
+### Difficulty
+Intermediate
+
+### Required Skills
+- MERN Stack
+- REST APIs
+- Authentication systems
+- Basic geolocation handling
+
+---
+
+## Idea 12: Practical Pollution Awareness & Action App
+
+### Description
+Most pollution awareness apps provide static information that users often ignore.
+
+This project focuses on actionable, personalized guidance based on real-time air quality data.
+
+Instead of just showing AQI, the system tells users what they should do today based on pollution levels.
+
+### Expected Outcomes
+- Real-time AQI-based recommendations
+- Personalized daily health advice
+- Increased user awareness through actionable insights
+- Behavior-driven pollution response system
+
+### Possible Deliverables
+- AQI data integration (API-based)
+- Rule-based recommendation engine
+- Daily tips and alerts system
+- Personal exposure tracking module
+- Mobile-friendly or web interface
+
+### Example Logic
+- AQI 300 → Avoid outdoor activity
+- AQI 250 → Wear N95 mask
+- AQI 150 → Limit exposure
+
+### Difficulty
+Beginner – Intermediate
+
+### Required Skills
+- Python / JavaScript
+- API integration
+- Rule-based systems
+- UI/UX design
+
+---
+
+## Idea 13: NGO Management System
+
+### Description
+Develop a comprehensive management system tailored for NGOs to streamline their operations.
+
+NGOs often struggle with fragmented systems for managing donors, volunteers, funds, and inventory.
+
+This platform aims to unify all operations into a single structured system.
+
+### Expected Outcomes
+- Efficient NGO resource management
+- Improved transparency in donations and funds
+- Better volunteer coordination
+- Organized event and inventory tracking
+
+### Possible Deliverables
+- Donor management database
+- Volunteer scheduling system
+- Donation tracking and reporting
+- Event planning module
+- Inventory management (food, clothes, medicines)
+- Admin dashboard
+
+### Difficulty
+Intermediate
+
+### Required Skills
+- MERN Stack / Django
+- Database design
+- CRUD operations
+- Dashboard UI
+
+---
+
+## Idea 14: Hyperlocal Air Quality Monitoring System
+
+### Description
+Air quality varies significantly even within small geographic areas.
+
+This project focuses on creating a hyperlocal AQI monitoring system using crowdsourced and sensor-based data.
+
+The platform provides localized pollution insights and health recommendations.
+
+### Expected Outcomes
+- Street-level AQI visibility
+- Crowdsourced environmental data collection
+- Personalized health recommendations
+- Time-based outdoor activity suggestions
+
+### Possible Deliverables
+- AQI heatmap visualization
+- Data collection interface (manual or sensor input)
+- Recommendation engine
+- Best-time-to-go-out prediction
+- Mask recommendation system
+
+### Difficulty
+Intermediate – Advanced
+
+### Required Skills
+- Geospatial data handling
+- MERN Stack
+- Data visualization
+- API integration
+
+---
+
+## Idea 15: Bill & Subscription Management System
+
+### Description
+Build a system that helps users track recurring expenses such as utility bills and subscriptions.
+
+Users often forget payments or lose track of multiple subscriptions, leading to unnecessary expenses.
+
+This platform focuses on financial awareness and timely reminders.
+
+### Expected Outcomes
+- Centralized bill and subscription tracking
+- Automated reminders for payments
+- Monthly expense insights
+- Better financial planning
+
+### Possible Deliverables
+- Bill and subscription input system
+- Reminder/notification engine
+- Monthly expense summary dashboard
+- Categorization of expenses
+- Optional payment integration
+
+### Difficulty
+Beginner – Intermediate
+
+### Required Skills
+- MERN Stack
+- Scheduling/cron jobs
+- Basic data analysis
+- UI dashboards
+
+---
+
+## Idea 16: Apartment / Society Management System
+
+### Description
+Develop a system to streamline the management of residential societies and apartments.
+
+The platform should improve communication, issue tracking, and operational management for residents and administrators.
+
+### Expected Outcomes
+- Organized complaint and maintenance tracking
+- Secure visitor management
+- Efficient communication between residents and management
+- Digital handling of notices and updates
+
+### Possible Deliverables
+- Complaint management system
+- Visitor entry logging system
+- Parking allocation module
+- Notice board system
+- Staff management interface
+- Admin dashboard
+
+### Difficulty
+Intermediate
+
+### Required Skills
+- MERN Stack
+- Authentication systems
+- Role-based access control
+- Database management
+
 ## Notes
 
 The scope of each project can be adjusted based on the contributor’s experience level and discussions during the Community Bonding period.
