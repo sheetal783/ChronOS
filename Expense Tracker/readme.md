@@ -29,7 +29,7 @@ A sleek, lightweight **Personal Finance Dashboard** built with Python and Flask.
 
 ```text
 .
-├── main.py              # Application entry point & route handlers
+├── app.py               # Application entry point & route handlers
 ├── models.py            # Database schema (User, Expense, Budget)
 ├── static/              # CSS, JavaScript, and Images
 ├── templates/           # HTML Jinja2 templates
@@ -59,11 +59,11 @@ pip install flask flask-sqlalchemy flask-login
 Run the application
 
 Bash
-python main.py
+python app.py
 The app will initialize the database and start at http://127.0.0.1:5000/.
 
 🔐 Security Note
-For production environments, ensure you change the SECRET_KEY in main.py:
+For production environments, ensure you change the SECRET_KEY in app.py:
 
 Python
 app.config['SECRET_KEY'] = 'your-secure-random-string-here'
